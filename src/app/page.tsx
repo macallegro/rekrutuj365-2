@@ -12,8 +12,8 @@ import Video from "@/components/Video";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Free Next.js Template for Startup and SaaS",
-  description: "This is Home for Startup Nextjs Template",
+  title: "Agencja zatrudnienia Rekrutuj365",
+  description: "Agencja zatrudnienia Rekrutuj365. Wyślij do nas swoje CV aby znaleźć wymarzoną pracę",
   // other metadata
 };
 
@@ -22,12 +22,10 @@ export default function Home() {
     <>
       <Hero />
       <Features />
-      <Video />
       <Brands />
       <AboutSectionOne />
       <AboutSectionTwo />
       <Testimonials />
-      <Pricing />
       <Blog />
       <Contact />
     </>
