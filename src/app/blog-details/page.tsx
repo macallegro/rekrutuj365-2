@@ -119,7 +119,7 @@ const BlogDetailsPage = () => {
                     </div>
                   </div>
                   <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    2Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Quis enim lobortis scelerisque fermentum. Neque
                     sodales ut etiam sit amet. Ligula ullamcorper
