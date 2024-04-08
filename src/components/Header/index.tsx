@@ -57,14 +57,14 @@ const Header = () => {
                 } `}
               >
                 <Image
-                  src="/images/logo/logo-22.jpeg"
+                  src="/images/logo/logo-2.png"
                   alt="Logo agencji zatrudnienia Rekrutuj365"
                   width={140}
                   height={30}
                   className="w-full dark:hidden"
                 />
                 <Image
-                  src="/images/logo/logo2.jpeg"
+                  src="/images/logo/logo.png"
                   alt="Logo agencji zatrudnienia Rekrutuj365"
                   width={140}
                   height={30}
