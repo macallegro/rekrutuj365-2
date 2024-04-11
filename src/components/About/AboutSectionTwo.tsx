@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { text } from "stream/consumers";
 
 const AboutSectionTwo = () => {
   return (
@@ -12,13 +13,13 @@ const AboutSectionTwo = () => {
             >
               <Image
                 src="/images/about/about-image-2.svg"
-                alt="about image"
+                alt="Agencja pracy - tło"
                 fill
                 className="drop-shadow-three dark:hidden dark:drop-shadow-none"
               />
               <Image
                 src="/images/about/about-image-2-dark.svg"
-                alt="about image"
+                alt="Agencja pracy - tło 2"
                 fill
                 className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
               />
@@ -28,29 +29,26 @@ const AboutSectionTwo = () => {
             <div className="max-w-[470px]">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Bug free code
+                  Profesjonalne dopasowanie kandydatów
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Dokładnie analizujemy potrzeby naszych klientów oraz umiejętności potencjalnych pracowników, zapewniając idealne dopasowanie do stanowiska.
                 </p>
               </div>
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Premier support
+                  Oszczędność zasobów
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt.
+                  Pozwalamy naszym klientom zaoszczędzić cenny czas i zasoby, które mogą być przeznaczone na rozwój ich biznesu, zajmując się kompleksowo całym procesem rekrutacji.
                 </p>
               </div>
               <div className="mb-1">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Next.js
+                  Wyślij nam swoje CV
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt
-                  consectetur adipiscing elit setim.
+                  Jeśli chcesz, abyśmy przekazali Twoje CV potencjalnym pracodawcom, wyślij nam je! Stwórz je w <a href="https://be-rising.pl" style={{color: "#aaaacc"}}>kreatorze CV</a>, zapisz do PDF i wyślij na nasz adres email.
                 </p>
               </div>
             </div>

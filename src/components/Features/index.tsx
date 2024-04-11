@@ -8,8 +8,8 @@ const Features = () => {
       <section id="features" className="py-16 md:py-20 lg:py-28">
         <div className="container">
           <SectionTitle
-            title="Main Features"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            title="Pracuj z nami"
+            paragraph="Specjalizujemy się w łączeniu utalentowanych kandydatów z renomowanymi firmami, zapewniając kompleksową obsługę rekrutacyjną. Dzięki naszemu doświadczeniu i szerokiemu zakresowi usług, zapewniamy efektywne dopasowanie kwalifikacji oraz potrzeb pracodawców i pracowników. Skorzystaj z naszej pomocy, aby znaleźć drogę do sukcesu zawodowego!"
             center
           />
 

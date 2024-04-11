@@ -5,8 +5,8 @@ import Image from "next/image";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog Details Page | Free Next.js Template for Startup and SaaS",
-  description: "This is Blog Details Page for Startup Nextjs Template",
+  title: "Agencja zatrudnienia Rekrutuj365 - Blog | Jak dobrze wypaść na rozmowie kwalifikacyjnej?",
+  description: "Blog agencji pracy Rekrutuj365",
   // other metadata
 };
 
@@ -19,8 +19,7 @@ const BlogDetailsPage = () => {
             <div className="w-full px-4 lg:w-8/12">
               <div>
                 <h2 className="mb-8 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
-                  10 amazing sites to download stock photos & digital assets for
-                  free
+                Jak dobrze wypaść na rozmowie kwalifikacyjnej?
                 </h2>
                 <div className="mb-10 flex flex-wrap items-center justify-between border-b border-body-color border-opacity-10 pb-4 dark:border-white dark:border-opacity-10">
                   <div className="flex flex-wrap items-center">
@@ -28,7 +27,7 @@ const BlogDetailsPage = () => {
                       <div className="mr-4">
                         <div className="relative h-10 w-10 overflow-hidden rounded-full">
                           <Image
-                            src="/images/blog/author-02.png"
+                            src="/images/blog/author-01.png"
                             alt="author"
                             fill
                           />
@@ -36,7 +35,7 @@ const BlogDetailsPage = () => {
                       </div>
                       <div className="w-full">
                         <span className="mb-1 text-base font-medium text-body-color">
-                          By <span>Musharof Chy</span>
+                          By <span>Marta</span>
                         </span>
                       </div>
                     </div>
@@ -60,7 +59,7 @@ const BlogDetailsPage = () => {
                             <path d="M13.2637 3.3697H7.64754V2.58105C8.19721 2.43765 8.62738 1.91189 8.62738 1.31442C8.62738 0.597464 8.02992 0 7.28906 0C6.54821 0 5.95074 0.597464 5.95074 1.31442C5.95074 1.91189 6.35702 2.41376 6.93058 2.58105V3.3697H1.31442C0.597464 3.3697 0 3.96716 0 4.68412V13.2637C0 13.9807 0.597464 14.5781 1.31442 14.5781H13.2637C13.9807 14.5781 14.5781 13.9807 14.5781 13.2637V4.68412C14.5781 3.96716 13.9807 3.3697 13.2637 3.3697ZM6.6677 1.31442C6.6677 0.979841 6.93058 0.716957 7.28906 0.716957C7.62364 0.716957 7.91042 0.979841 7.91042 1.31442C7.91042 1.649 7.64754 1.91189 7.28906 1.91189C6.95448 1.91189 6.6677 1.6251 6.6677 1.31442ZM1.31442 4.08665H13.2637C13.5983 4.08665 13.8612 4.34954 13.8612 4.68412V6.45261H0.716957V4.68412C0.716957 4.34954 0.979841 4.08665 1.31442 4.08665ZM13.2637 13.8612H1.31442C0.979841 13.8612 0.716957 13.5983 0.716957 13.2637V7.16957H13.8612V13.2637C13.8612 13.5983 13.5983 13.8612 13.2637 13.8612Z" />
                           </svg>
                         </span>
-                        12 Jan 2024
+                        14 Czerwiec 2023
                       </p>
                       <p className="mr-5 flex items-center text-base font-medium text-body-color">
                         <span className="mr-3">
@@ -93,80 +92,58 @@ const BlogDetailsPage = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="mb-5">
-                    <a
-                      href="#0"
-                      className="inline-flex items-center justify-center rounded-full bg-primary px-4 py-2 text-sm font-semibold text-white"
-                    >
-                      Design
-                    </a>
-                  </div>
                 </div>
                 <div>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat.
-                  </p>
+                  Ocena aktualnych umiejętności i przyszłych potrzeb pracowników jest kluczowym elementem każdego procesu rekrutacji. Jednakże, aby zdobyć wymarzoną pracę, niezbędne jest również przekonujące wystąpienie podczas rozmowy kwalifikacyjnej. W tym artykule omówimy, jak dobrze wypaść na rozmowie kwalifikacyjnej, przedstawiając kluczowe kroki, które warto podjąć oraz omawiając strategie, które pomogą Ci zaprezentować się w najlepszym świetle przed pracodawcą.                  </p>
                   <div className="mb-10 w-full overflow-hidden rounded">
                     <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                       <Image
-                        src="/images/blog/blog-details-02.jpg"
-                        alt="image"
+                        src="/images/blog/rozmowa-kwalifikacyjna.jpg"
+                        alt="Rozmowa kwalifikacyjna"
                         fill
                         className="object-cover object-center"
                       />
                     </div>
                   </div>
-                  <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    2Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Quis enim lobortis scelerisque fermentum. Neque
-                    sodales ut etiam sit amet. Ligula ullamcorper
-                    <strong className="text-primary dark:text-white">
-                      malesuada
-                    </strong>
-                    proin libero nunc consequat interdum varius. Quam
-                    pellentesque nec nam aliquam sem et tortor consequat.
-                    Pellentesque adipiscing commodo elit at imperdiet.
-                  </p>
-                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Semper auctor neque vitae tempus quam pellentesque nec.
-                    <span className="text-primary underline dark:text-white">
-                      Amet dictum sit amet justo
-                    </span>
-                    donec enim diam. Varius sit amet mattis vulputate enim nulla
-                    aliquet porttitor. Odio pellentesque diam volutpat commodo
-                    sed.
-                  </p>
-                  <h3 className="font-xl mb-10 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
-                    Digital marketplace for Ui/Ux designers.
+
+                  <h3 className="mb-8 text 2xl font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight">1. Przygotowanie przed rozmową kwalifikacyjną
                   </h3>
-                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    consectetur adipiscing elit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    mattis vulputate cupidatat.
+                  <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                  Przed przystąpieniem do rozmowy kwalifikacyjnej warto poświęcić trochę czasu na przygotowanie się do niej. Po pierwsze, warto dokładnie zapoznać się z ogłoszeniem o pracę oraz firmą, do której aplikujemy. Poznanie profilu działalności oraz wartości firmy pomoże nam lepiej zrozumieć, czego pracodawca oczekuje od potencjalnego pracownika. Po drugie, warto przeanalizować swoje umiejętności, doświadczenie i osiągnięcia zawodowe oraz przygotować odpowiedzi na najczęściej zadawane pytania podczas rozmowy kwalifikacyjnej.
                   </p>
-                  <ul className="mb-10 list-inside list-disc text-body-color">
-                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                      Consectetur adipiscing elit in voluptate velit.
-                    </li>
-                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                      Mattis vulputate cupidatat.
-                    </li>
-                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                      Vulputate enim nulla aliquet porttitor odio pellentesque
-                    </li>
-                    <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                      Ligula ullamcorper malesuada proin
-                    </li>
-                  </ul>
+                  <h3 className="mb-8 text 2xl font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight">2. Prezentacja osobista
+                  </h3>
+                  <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                  Podczas rozmowy kwalifikacyjnej ważna jest również nasza prezencja osobista. Po pierwsze, warto zadbać o odpowiedni strój, który będzie odpowiedni do charakteru firmy, w której odbywa się rozmowa. Po drugie, ważne jest również zachowanie podczas rozmowy - należy zachować spokój i pewność siebie, unikać nadmiernego gestykulowania i utrzymywać kontakt wzrokowy z rozmówcą.                  
+                  </p>
+                  <h3 className="mb-8 text 2xl font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight">3. Odpowiedzi na pytania
+                  </h3>
+                  <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                  Podczas rozmowy kwalifikacyjnej z pewnością zostaną nam zadane różnego rodzaju pytania dotyczące naszego doświadczenia, umiejętności i motywacji do pracy. Ważne jest, aby odpowiedzi na te pytania były klarowne, zwięzłe i precyzyjne. Warto przygotować się do odpowiedzi na pytania o nasze doświadczenie zawodowe, osiągnięcia, mocne i słabe strony oraz nasze cele zawodowe.                  
+                  </p>
+                  
+                  <h3 className="mb-8 text 2xl font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight">4. Zadawanie pytań
+                  </h3>
+                  <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                  Podczas rozmowy kwalifikacyjnej warto również pamiętać o zadawaniu pytań pracodawcy. Jest to nie tylko okazja do zdobycia dodatkowych informacji na temat firmy i stanowiska pracy, ale również sposób na pokazanie swojego zainteresowania i zaangażowania w proces rekrutacji. Warto zadać pytania dotyczące kultury organizacyjnej firmy, oczekiwań względem kandydatów oraz możliwości rozwoju zawodowego.
+                  </p>
+
+                  <h3 className="mb-8 text 2xl font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight">5. Umiejętność radzenia sobie z trudnymi sytuacjami
+                  </h3>
+                  <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                  W trakcie rozmowy kwalifikacyjnej możemy również spotkać się z trudnymi sytuacjami, takimi jak pytania, na które nie mamy gotowej odpowiedzi, czy też konfrontacja z negatywnymi opiniami pracodawcy na temat naszego CV. Ważne jest, aby zachować spokój i profesjonalizm oraz umiejętnie radzić sobie z tego typu sytuacjami. Możemy na przykład poprosić o chwilę na zastanowienie się nad pytaniem lub otwarcie porozmawiać o ewentualnych obawach pracodawcy i wyjaśnić wszelkie wątpliwości.
+                  </p>
+
+                  <h3 className="mb-8 text 2xl font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight">6. Podsumowanie rozmowy
+                  </h3>
+                  <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                  Na zakończenie rozmowy kwalifikacyjnej warto podziękować rozmówcy za czas oraz zapytać o kolejne kroki w procesie rekrutacji. Warto również wyrazić jeszcze raz swoje zainteresowanie pracą i potwierdzić swoje zainteresowanie współpracą.
+                  </p>
+                  
                   <div className="relative z-10 mb-10 overflow-hidden rounded-md bg-primary bg-opacity-10 p-8 md:p-9 lg:p-8 xl:p-9">
                     <p className="text-center text-base font-medium italic text-body-color">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod incididunt utionals labore et dolore magna
-                      aliqua. Quis lobortis scelerisque fermentum, The Neque ut
-                      etiam sit amet.
+                    Podsumowując, aby dobrze wypaść na rozmowie kwalifikacyjnej, warto odpowiednio się przygotować, zadbać o prezencję osobistą, jasne i zwięzłe odpowiedzi na pytania, umiejętność zadawania pytań oraz umiejętność radzenia sobie z trudnymi sytuacjami. Dzięki temu, będziemy mieli większą szansę na przekonanie pracodawcy o naszych kwalifikacjach i zdobycie wymarzonej pracy.                    
                     </p>
                     <span className="absolute left-0 top-0 z-[-1]">
                       <svg
@@ -309,25 +286,21 @@ const BlogDetailsPage = () => {
                       </svg>
                     </span>
                   </div>
-                  <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    consectetur adipiscing elit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    mattis vulputate cupidatat.
-                  </p>
+                  
                   <div className="items-center justify-between sm:flex">
                     <div className="mb-5">
                       <h4 className="mb-3 text-sm font-medium text-body-color">
-                        Popular Tags :
+                        Popularne tagi:
                       </h4>
                       <div className="flex items-center">
-                        <TagButton text="Design" />
-                        <TagButton text="Development" />
-                        <TagButton text="Info" />
+                        <TagButton text="Praca" />
+                        <TagButton text="Pisanie CV" />
+                        <TagButton text="Agencja pracy" />
                       </div>
                     </div>
                     <div className="mb-5">
                       <h5 className="mb-3 text-sm font-medium text-body-color sm:text-right">
-                        Share this post :
+                        Udostępnij post:
                       </h5>
                       <div className="flex items-center sm:justify-end">
                         <SharePost />

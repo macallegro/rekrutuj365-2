@@ -3,45 +3,48 @@ import { Blog } from "@/types/blog";
 const blogData: Blog[] = [
   {
     id: 1,
-    title: "Best UI components for modern websites",
+    url: "/blog-jak-znalezc-pracownika",
+    title: "Jak znaleźć pracownika przez agencję pracy?",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "Ocena aktualnych umiejętności i przyszłych potrzeb pracowników jest jednym z kluczowych wyzwań...",
     image: "/images/blog/blog-01.jpg",
     author: {
-      name: "Samuyl Joshi",
+      name: "Marta",
       image: "/images/blog/author-01.png",
-      designation: "Graphic Designer",
+      designation: "rekrutuj365",
     },
-    tags: ["creative"],
-    publishDate: "2025",
+    tags: ["praca"],
+    publishDate: "2023",
   },
   {
     id: 2,
-    title: "9 simple ways to improve your design skills",
+    url: "/blog-jak-napisac-cv",
+    title: "Jak napisać CV?",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "Napisanie skutecznego CV to kluczowy krok w procesie poszukiwania pracy. W artykule tym omówimy, jak przygotować CV...",
     image: "/images/blog/blog-02.jpg",
     author: {
-      name: "Musharof Chy",
-      image: "/images/blog/author-02.png",
-      designation: "Content Writer",
+      name: "Marta",
+      image: "/images/blog/author-01.png",
+      designation: "rekrutuj365",
     },
-    tags: ["computer"],
-    publishDate: "2025",
+    tags: ["praca"],
+    publishDate: "2023",
   },
   {
     id: 3,
-    title: "Tips to quickly improve your coding speed.",
+    url: "/blog-jak-dobrze-wypasc-na-rozmowie-kwalifikacyjnej",
+    title: "Jak dobrze wypaść na rozmowie kwalifikacyjnej?",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "Ocena aktualnych umiejętności i przyszłych potrzeb pracowników jest kluczowym elementem każdego procesu...",
     image: "/images/blog/blog-03.jpg",
     author: {
-      name: "Lethium Deo",
-      image: "/images/blog/author-03.png",
-      designation: "Graphic Designer",
+      name: "Marta",
+      image: "/images/blog/author-01.png",
+      designation: "rekrutuj365",
     },
-    tags: ["design"],
-    publishDate: "2025",
+    tags: ["praca"],
+    publishDate: "2023",
   },
 ];
 export default blogData;

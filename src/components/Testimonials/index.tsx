@@ -5,28 +5,28 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "Mariusz K.",
+    designation: "Pozyskanie Pracownika",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Dzięki współpracy z rekrutuj365 udało nam się znaleźć idealnego kandydata na stanowisko operatora koparki w naszej firmie. Profesjonalizm, szybkość działania i skuteczność rekrutacji to cechy, które wyróżniają tę agencję na rynku.",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "Bartek D.",
+    designation: "Pozyskanie Pracownika",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Jesteśmy bardzo zadowoleni z usług tej agencji. Profesjonalne podejście, skrupulatna selekcja kandydatów i szybka reakcja na nasze potrzeby sprawiły, że współpraca z Rekrutuj365 to czysta przyjemność.",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "Vitaliy W.",
+    designation: "Pośrednictwo pracy",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Dobra współpraca, udało mi się dostać do pracy jako operator koparki",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
@@ -37,8 +37,8 @@ const Testimonials = () => {
     <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Co o nas mówią"
+          paragraph="Oto kilka opinii od naszych zadowolonych Klientów"
           center
         />
 
